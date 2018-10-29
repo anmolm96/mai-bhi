@@ -140,7 +140,13 @@ class Index extends React.Component {
                 </li>
               </a>
             </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+            <p className="content">
+              These are only a few examples of the millions of cases we see here today. The point of adding these 
+              is to show every single victim out there that they are not alone, that the trauma they faced is not 
+              something they MUST hide in order to save their family or community’s face. And thus, by giving them 
+              a safe space, Mai Bhi attempts to bring these issues to light and once and for all talk of these problems 
+              and attempt to offer some solutions to reduce these heinous crimes.
+            </p>
             <footer className="major">
               <ul className="actions">
                 <li><a target="_blank" href="https://www.firstpost.com/india/metoo-in-india-a-list-of-allegations-as-reported-on-social-media-and-followed-up-by-firstpost-5359961.html" className="button">More Stories</a></li>
@@ -194,12 +200,6 @@ class Index extends React.Component {
                 <li><strong>Do</strong> use the form provided here if you feel unsafe or intimidated by the police. Again, sexual harassment is a serious problem in this country and therefore, its reporting is immaterial to Indian society. Therefore, even if the police is attempting to coerce you into dropping the case or harassing you and makes it harder to file your complaint, use our form to generate a written complaint which you can file at the police station without judgement.</li>
             </ul>
             </p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
           </section>
 
         </div>
