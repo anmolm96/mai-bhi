@@ -2,32 +2,36 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Form, Field } from 'react-final-form'
 import { Link } from 'gatsby'
+import * as pdfMake from 'pdfmake/build/pdfmake';
+import pdfFonts from "pdfmake/build/vfs_fonts";
 
 import Layout from '../components/layout'
 import HeaderGeneric from '../components/HeaderGeneric'
-import * as jsPDF from 'jspdf'
 
+pdfMake.vfs = pdfFonts.pdfMake.vfs;
 
 class Generic extends React.Component {
 
   onSubmit(values) {
-    var doc = new jsPDF()
-    doc.setFont("helvetica");
-    doc.setFontType("bold");
-    doc.setFontSize(13);
-    doc.text('Sexual Harrasment Complaint', 70, 10)
-    doc.setFontType("normal");
-    doc.setFontSize(10);
     let formVals = [];
     for(let [prop, val] of Object.entries(values)){
-      if(prop !== 'Description')
-        formVals.push(`${prop}: ${val}`);
+      formVals.push(`${prop}: ${val}`);
     }
-    let lastLine = `Description: ${values['Description']}`,
-    lastLines = doc.splitTextToSize(lastLine, 180);
-    formVals.push(...lastLines);
-    doc.text(formVals, 10, 20)
-    doc.save('complaint.pdf')
+    var docDefinition = {
+      content: [
+        { text: 'Sexual Harrassment Complaint', style: 'header' },
+        ...formVals
+      ],
+   
+      styles: {
+        header: {
+          fontSize: 22,
+          bold: true,
+          alignment: 'center'
+        }
+      }
+    };
+    pdfMake.createPdf(docDefinition).download('complaint.pdf');
     alert('Print out this PDF and take it to your closest Police Station');
   }
 
@@ -112,7 +116,7 @@ class Generic extends React.Component {
               <ul className="actions">
                 <li><Link to="/" className="button">Back Home</Link></li>
               </ul>
-            </footer>
+            </footer>    
           </section>
         </div>
       </Layout>
