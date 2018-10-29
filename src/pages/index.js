@@ -179,27 +179,27 @@ class Index extends React.Component {
             </p>
             <p>
               You <strong><u>should</u></strong> file a complaint if you:
-              <ul>
-                <li>received unwelcome physical contact or sexual advances (in the form of kissing, hugging, or fondling).</li>
-                <li>received an unwanted verbal demand for sexual favours or verbal comments of a sexual nature (Including terms which were intended to be compliments but are still derogatory).</li>
-                <li>received unwanted sexually explicit messages (in the form of sexually charged texts, phone calls, or unsolicited pictures of a sexual nature)</li>
-                <li>received repeated unwanted invitations for dates and/or sexual intimacy even after rejecting the first few demands (this includes people whom you may know or strangers approached)</li>
-                <li>received non verbal sexually-suggestive gestures (such as pointing to the pelvic region and constant whistling and leering)</li>
-                <li>received unwelcome sexual comments on your appearance, age, or private life (could be insults or unwarranted comments)</li>
-                <li>received any other unwelcome physical, verbal, or non-verbal sexual conduct</li>
-            </ul>
             </p>
+            <ul>
+              <li>received unwelcome physical contact or sexual advances (in the form of kissing, hugging, or fondling).</li>
+              <li>received an unwanted verbal demand for sexual favours or verbal comments of a sexual nature (Including terms which were intended to be compliments but are still derogatory).</li>
+              <li>received unwanted sexually explicit messages (in the form of sexually charged texts, phone calls, or unsolicited pictures of a sexual nature)</li>
+              <li>received repeated unwanted invitations for dates and/or sexual intimacy even after rejecting the first few demands (this includes people whom you may know or strangers approached)</li>
+              <li>received non verbal sexually-suggestive gestures (such as pointing to the pelvic region and constant whistling and leering)</li>
+              <li>received unwelcome sexual comments on your appearance, age, or private life (could be insults or unwarranted comments)</li>
+              <li>received any other unwelcome physical, verbal, or non-verbal sexual conduct</li>
+            </ul>
             <h2>Actions you should take if harassed</h2>
             <p>
               Although there is very detailed information on what action can be taken by someone who has been harassed, 
               it is not usually explicitly known by many victims who feel helpless and never report it. Hence, here are 
-              some do’s and don'ts on the actions you should take after being sexually harassed.
-              <ul>
-                <li><strong>Do</strong> be aware of the legal action you can take against the harassers. Sexual harassment is considered under Section 354 of the constitution and a woman can file an F.I.R(First Information Report) at the Rapid Response Desk of the nearest Police station.</li>
-                <li><strong>Don’t</strong> be persuaded to drop the case if the policeman or someone else tells you to. Remember that sexual harassment is a serious problem in our country and that the police <strong>cannot</strong> refuse to file an F.I.R. Only drop the case by your own volition if you majorly misrepresented the situation in your mind.</li>
-                <li><strong>Do</strong> use the form provided here if you feel unsafe or intimidated by the police. Again, sexual harassment is a serious problem in this country and therefore, its reporting is immaterial to Indian society. Therefore, even if the police is attempting to coerce you into dropping the case or harassing you and makes it harder to file your complaint, use our form to generate a written complaint which you can file at the police station without judgement.</li>
-            </ul>
+              some do’s and don'ts on the actions you should take after being sexually harassed:
             </p>
+            <ul>
+              <li><strong>Do</strong> be aware of the legal action you can take against the harassers. Sexual harassment is considered under Section 354 of the constitution and a woman can file an F.I.R(First Information Report) at the Rapid Response Desk of the nearest Police station.</li>
+              <li><strong>Don’t</strong> be persuaded to drop the case if the policeman or someone else tells you to. Remember that sexual harassment is a serious problem in our country and that the police <strong>cannot</strong> refuse to file an F.I.R. Only drop the case by your own volition if you majorly misrepresented the situation in your mind.</li>
+              <li><strong>Do</strong> use the form provided here if you feel unsafe or intimidated by the police. Again, sexual harassment is a serious problem in this country and therefore, its reporting is immaterial to Indian society. Therefore, even if the police is attempting to coerce you into dropping the case or harassing you and makes it harder to file your complaint, use our form to generate a written complaint which you can file at the police station without judgement.</li>
+            </ul>
           </section>
 
         </div>
