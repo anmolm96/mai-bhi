@@ -32,7 +32,7 @@ class Generic extends React.Component {
       }
     };
     pdfMake.createPdf(docDefinition).download('complaint.pdf');
-    alert('Print out this PDF and take it to your closest Police Station');
+    alert('Print out this PDF and take it the nearest Police Station');
   }
 
   render() {
@@ -86,10 +86,10 @@ class Generic extends React.Component {
                   </div>
                   <div>
                     <Field
-                      name="Culprit"
+                      name="Accused"
                       component="input"
                       type="text"
-                      placeholder="Name of Culprit (if known)"
+                      placeholder="Name of Perpetrator (if known)"
                     />
                     <br/>
                   </div>
