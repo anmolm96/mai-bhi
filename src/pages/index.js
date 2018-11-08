@@ -28,15 +28,6 @@ class Index extends React.Component {
     return (
       <Layout>
         <Helmet title="Mai Bhi" />
-          {<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113489139-2"></script>}
-          {
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'UA-113489139-2');
-            </script>
-          }
         <Header />
 
         <Waypoint
